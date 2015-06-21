@@ -1,0 +1,334 @@
+body{
+  margin: 0;
+}
+main{
+  height: 100%;
+}
+#main_section{
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("header-bg.jpg");
+  height: 100%;
+  background-size: 100%;
+  width:100%;
+}
+
+#main_section > header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12%;
+  padding: 40px 0px;
+  height: 30px;
+}
+
+#main_section nav{
+  width: 54%;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto;
+
+}
+
+.nav-list a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  min-width: 40%;
+  margin-left: 10%;
+}
+
+#divide{
+  height: 500px;
+  padding: 140px 0px;
+  text-align: center;
+}
+
+#welcome{
+  color: white;
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#welcome_m{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+#more-button{
+  padding: 20px 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #fed136
+}
+
+#services{
+  height: 90%;
+  display: flex;
+  padding: 0 12%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.subtitle{
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  color: #777777
+}
+
+.section_head{
+  text-align: center;
+}
+
+#service_con{
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.service-desc{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  color: #777777;
+  padding: 0 10px;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#portfolio{
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:8% 12%;
+}
+
+#port-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.project{
+  margin-top: 24%;
+  background: white;
+  text-align: center;
+  align-items: center;
+  position:relative;
+}
+
+.project-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.about-hov1{
+  width: 10px;
+  height: 10px;
+  //background-color: red;
+  align-self: center;
+  position:absolute;
+  margin-top:-150px;
+  margin-left:190px;
+  display:none;
+  border: 5px;
+  border-style:solid;
+  box-sizing:border-box;
+  border-color:#f1f1f1;
+  border-left-color:transparent;
+  border-top-color:transparent;
+  border-bottom-color:transparent;
+}
+.about-hov{
+  width: 150px;
+  height: 200px;
+  background-color:#f1f1f1;
+  align-self: center;
+  position:absolute;
+  margin-top:-150px;
+  margin-left:200px;
+  display:none;
+}
+a:hover .about-hov{
+  display:block;
+}
+a:hover .about-hov1{
+  display:block;
+}
+.project-subtitle{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  color: #777777
+}
+#about-content{
+  padding-top: 12%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-item-left{
+  width: 61%;
+  display: flex;
+  text-align: right;
+}
+
+.about-item-right{
+  width: 61%;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+  align-self: flex-end;
+}
+
+.about-connector{
+  width: 2px;
+  height: 100px;
+  background-color: #f1f1f1;
+  align-self: center;
+}
+
+.about-image{
+  border-radius: 100%;
+  border-color: #f1f1f1;
+  border-width: 10px;
+  border-style: solid;
+  width: 170px;
+  height: 170px;
+  background-size: 100%;
+}
+
+.about-title , .about-date{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.about-desc{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  color: #777777
+}
+
+.about-text{
+  width: 50%;
+  padding:0px 52px;
+}
+
+#about-last{
+  border-radius: 100%;
+  border-color: #f1f1f1;
+  border-width: 10px;
+  border-style: solid;
+  width: 170px;
+  height: 170px;
+  background-size: 100%;
+  background-color: #fed136;
+  align-self: center;
+}
+
+#about{
+  padding: 8% 12%;
+}
+#team{
+  padding: 8% 12%;
+  background-color: #f7f7f7;
+}
+#team{
+  padding: 8% 12%;
+  background-color: #f7f7f7;
+}
+
+#team-content{
+  padding-top: 8%;
+  text-align: center;
+}
+
+#team-mates{
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-size: 100%;
+}
+
+.team-name{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.team-position{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+}
+
+.team-mate{
+  text-align: center;
+}
+
+#team-text{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777777;
+  padding: 0 8%;
+}
+#clients{
+  padding: 4% 12%;
+}
+#arrange{
+  display: flex;
+  justify-content:space-between;
+}
+#contact{
+  padding: 7% 12%;
+  background-image: url("contact-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.contact-text{
+  font-color: white;
+}

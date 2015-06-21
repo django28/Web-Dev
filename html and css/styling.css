@@ -1,0 +1,186 @@
+body {
+  background-image: url("images/page-bg.jpg");
+  margin: 0;
+  color: #6A6969;
+}
+
+.page-layout{
+  max-width: 890px;
+  margin: 0 auto;
+}
+
+#top-header-content{
+  background-color: #222222;
+  padding: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-header{
+  position: fixed;
+  width: 100%;
+}
+
+#logo-div{
+
+}
+
+.icon-list{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-list{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+#top-nav{
+  width: 50%;
+}
+
+.nav-item-link{
+  color: #6A6969;
+  text-decoration: none;
+}
+
+.nav-item{
+  font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+#main-content{
+  padding: 125px 43px 150px 43px;
+  background-image: url("images/body-bg.png");
+}
+
+.section-heading{
+  color: #6A6969;
+  font: 400 58px/60px 'Bree Serif', Georgia, serif;
+}
+
+.section-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons{
+  align-self: center;
+}
+
+.social-icon{
+  margin-left: 10px;
+}
+
+.divider{
+  height: 9px;
+  background-image: url("images/divider.png");
+  margin-bottom: 40px;
+}
+
+#about-content{
+  display: flex;
+}
+
+#about-image{
+  width: 33%;
+}
+
+#about-info{
+  width: 66%;
+}
+
+#experience-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-third{
+  width: 33%;
+  margin-right: 40px;
+}
+
+.one-fourth{
+  margin-bottom: 25px;
+}
+
+#work-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+#work-images{
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#connect-content{
+  display: flex;
+}
+
+#about-me{
+  width: 300px;
+}
+
+.input-name{
+  display: block;
+  padding: 0 10px;
+}
+
+#form{
+  width:45%;
+  padding-right: 100px;
+}
+
+.form-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#form-email{
+  background: #222222 url(images/icon-mail.png) no-repeat 10px 9px;
+}
+
+input{
+	width:255px;
+	border:0px;
+	color:#3b3b3b;
+	padding:10px 10px 10px 30px;
+	font: 400 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+}
+textarea{
+  width:255px;
+	border:0px;
+	color:#3b3b3b;
+	padding:10px 10px 10px 30px;
+	font: 400 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+}
+
+#form-name{
+  background: #222222 url(images/icon-user.png) no-repeat 10px 8px;
+}
+
+#form-message{
+  background: #222222 url(images/icon-message.png) no-repeat 10px 8px;
+}
+
+#form-submit{
+  width:75px;
+	height:30px;
+	float:right;
+	padding:0px 0px 5px 0px;
+	margin:10px 16px 0px 0px;
+	background:#222222;
+	color:#3b3b3b;
+	font: 400 14px/16px 'Bree Serif', Georgia, serif;
+}
+
+#submit-butt{
+  margin-top: 10px;
+}

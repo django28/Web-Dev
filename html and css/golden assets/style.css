@@ -1,0 +1,128 @@
+body{
+	margin:0;
+}
+#first_section{
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	background: url("header-bg.jpg");
+	height: 100%;
+	background-size: 100%;
+	opacity: 10%;
+}
+#gold{
+	display:flex;
+	justify-content:space-between;
+}
+#heading{
+	margin:50px 0px 0px 140px;
+}
+#icons{
+	display:flex;
+	justify-content:space-around;
+	list-style: none;
+	text-decoration: none;
+	margin-top:-4px;
+}
+a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+li{
+	margin-right: 30px;
+}
+#welocme{
+	text-align: center;
+	line-height: 300px;
+}
+#wel{
+	color: white;
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
+#nice{
+	color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  margin-top:-250px;
+}
+#tell{
+	margin-top:-180px;
+	text-align: center;
+	align-content:center;
+}
+#color{
+   padding: 0px 5px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #fed136
+}
+#SERVICES{
+  height: 90%;
+  display: flex;
+  padding: 0 12%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.title{
+  //font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.subtitle{
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  color: #777777
+}
+
+.section-header{
+  text-align: center;
+}
+.section-header{
+  text-align: center;
+}
+
+#service-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-title{
+  //font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.service-desc{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  color: #777777;
+  padding: 0 10px;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#PORTFOLIO{
+	height: 90%;
+  display: flex;
+  padding: 0 12%;
+  align-items: center;
+}
